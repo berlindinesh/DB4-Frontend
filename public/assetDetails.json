@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "category": "IT Equipment",
+        "product_name": "Laptop",
+        "status": "in use",
+        "current_employee": "John Doe",
+        "previous_employee": "Jane Smith",
+        "created_at": "2023-11-01T12:00:00Z",
+        "updated_at": "2023-11-02T12:00:00Z"
+    },
+    {
+        "id": 2,
+        "category": "Office Supplies",
+        "product_name": "Printer",
+        "status": "available",
+        "current_employee": null,
+        "previous_employee": "Alice Johnson",
+        "created_at": "2023-11-01T12:00:00Z",
+        "updated_at": "2023-11-02T12:00:00Z"
+    },
+    {
+        "id": 3,
+        "category": "Furniture",
+        "product_name": "Desk",
+        "status": "under service",
+        "current_employee": null,
+        "previous_employee": "Mike Brown",
+        "created_at": "2023-11-01T12:00:00Z",
+        "updated_at": "2023-11-02T12:00:00Z"
+    },
+    {
+        "id": 4,
+        "category": "IT Equipment",
+        "product_name": "Monitor",
+        "status": "available",
+        "current_employee": null,
+        "previous_employee": "Emily Davis",
+        "created_at": "2023-11-01T12:00:00Z",
+        "updated_at": "2023-11-02T12:00:00Z"
+    }
+]

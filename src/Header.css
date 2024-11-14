@@ -1,0 +1,94 @@
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    height: 70px;
+    padding: 0 20px; /* Add padding for spacing */
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 15%; /* Matches the sidebar width */
+    width: 80%; /* Takes up the rest of the width */
+    z-index: 1000;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    font-size: 1.3em;
+    color: #333333;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.header-logo {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333333;
+}
+
+.header-center {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    margin-right: 12px;
+}
+
+.time-display {
+    font-weight: bold;
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.user-initials {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 4px;
+}
+
+.user-name {
+    font-size: 0.9em;
+    color: #333333;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 8px;
+        width: 100%;
+        left: 0;
+    }
+    .header-center {
+        margin: 8px 0;
+    }
+}
